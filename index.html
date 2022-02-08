@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -13,61 +13,58 @@
     </header>
     <nav>
         <ul class="nav-links">
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact me</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact me</a></li>
         </ul>
     </nav>
-    <section>
+    <section id="about">
         <h2>About me</h2>
-        <p></p>
+        <p>Hello and welcome to my portfolio. My name is Brad and I am an aspiring web designer. I am currently learning to develop through a coding bootcamp</p>
+        <p>Please see below to view my projects and contact information.</p>
     </section>
-    <section>
+    <section id="projects">
+        <h2>Projects</h2>
         <div class="container">
-          <div class="project-info">
-            <img
+          <div class="project-info" id="mainproj">
+            <a href="https://www.yahoo.com/"> <img
               class="project-img"
-              src=""
-              alt=""
-            />
-            <h2 class="project-header"></h2>
+              src="./assets/images/technology-background-1632715.jpg"
+              alt="Near view microchip"
+            /> </a>
+            <h3 class="project-header">Yahoo</h2>
             <ul class="project-desc">
-              <li class="project-desc-item"></li>
+              <li class="project-desc-item">Search engine</li>
             </ul>
-            <a class="project-button" href="#">View App</a>
           </div>
           <div class="project-info">
-            <img
+           <a href="https://www.google.com/"><img
               class="project-img"
-              src=""
-              alt=""
-            />
-            <h2 class="project-header"></h2>
+              src="./assets/images/cd-3-1471531.jpg"
+              alt="CD photo"
+            /></a>
+            <h3 class="project-header">Google</h2>
             <ul class="project-desc">
-              <li class="project-desc-item">
-                
-              </li>
+              <li class="project-desc-item">Search the web</li>
             </ul>
-            <a class="project-button" href="#">View App</a>
           </div>
           <div class="project-info">
-            <img
+           <a href="https://www.msn.com/"><img
               class="project-img"
-              src=""
-              alt=""
-            />
-            <h2 class="project-header">Project 3</h2>
+              src="./assets/images/keyboard-1196016.jpg"
+              alt="Keyboard keys"
+            /></a>
+            <h3 class="project-header">MSN</h2>
             <ul class="project-desc">
-              <li class="project-desc-item">
-               
-              </li>
+              <li class="project-desc-item">Search web and news</li>
             </ul>
-            <a class="project-button" href="#">View App</a>
           </div>
         </div>
       </section>
-      <section>
+      <section id="contact">
           <h2>Contact me</h2>
+          <p>Email: <a href="mailto:bhodge166@gmail.com">bhodge166@gmail.com</a></p>
+          <p>Github: <a href="https://github.com/bhodge166">bhodge166</a></p>
       </section>
 </body>
 </html>
