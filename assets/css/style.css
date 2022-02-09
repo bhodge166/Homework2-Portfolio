@@ -1,12 +1,15 @@
+/* Sets global font family */
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
 }
 
+/* Sets background color and standard font-size for body */
 body {
     background-color: whitesmoke;
     font-size: 16px;
 }
 
+/* Sets text color and sets as flex container with spacing to put image and text at different ends */
 header {
     color: dodgerblue;
     display: flex;
@@ -24,6 +27,8 @@ h1 {
 p {
     line-height: 130%;
 }
+
+/* Sets nav bar to flex and sets content on right side of box. Removes bullets from list */
 .nav-links {
     display: flex;
     flex-wrap: wrap;
@@ -38,6 +43,7 @@ p {
   
 }
 
+/* Creates flex for cards and sets to wrap */
 #projects {  
     display: flex;
     flex-wrap: wrap;
@@ -48,35 +54,40 @@ h2 {
     color: dodgerblue;
 }
 
+/* Creates flex box for container classes and sets to wrap to multi line */
 .container {
     display: flex;
     flex-wrap: wrap;
     
 }
 
+/* Sets max width for cards */
 .project-info {
     flex-grow: 1;
     max-width: 40%;
     border: 5px solid dodgerblue;
-    margin: 10px;
-   
+    margin: 10px;   
 }
 
+/* Sets max width for initial card to make bigger then others */
 #mainproj {
     flex-grow: 2;
     max-width: 80%;
 }
 
+/* Sets image to entire size of its container */
 .project-img {
     width: 100%;
     height: 100%;
 }
 
+/* Moves paragraph closer to project header */
 .project-header {
     color: white;
     margin-bottom: -20px;
 }
 
+/* Sets position of description inside container as well as styling */
 .project-desc {
     position: absolute;
     margin-top: -15%;
@@ -92,21 +103,25 @@ h2 {
     font-size: 2rem;
 }
 
+/* Sets contact info to flex container and equal spacing */
 .contactinfo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+/* Styling for photo in header */
 .myphoto {
     height: 120px;
     border-radius: 50%;
 }
 
+/* Creates shadow when hovering cards */
 .project-info:hover {
   box-shadow: 10px 10px 10px black;
 }
 
+/* Sets to column when below 992px, changes font-size */
 @media screen and (max-width: 992px) {
     .container{
         flex-direction: column;
@@ -116,6 +131,7 @@ h2 {
     }
 }
 
+/* Sets nav links to column below 768px and adjusts proj descriptions to fit better at smaller size */
 @media screen and (max-width:768px) {
     .project-desc{
         font-size: .9rem;
