@@ -8,11 +8,17 @@ body {
 
 header {
     color: dodgerblue;
-
+    display: flex;
+    justify-content: space-between;
 }
 
 nav {
-    background-color: gray;
+    background-color: #b8cdeb;
+}
+
+h1 {
+    font-size: 3rem;
+    text-decoration: underline;
 }
 
 .nav-links {
@@ -23,18 +29,18 @@ nav {
 
 }
 
-li {
+.nav-links li {
     margin: 1rem;
   
 }
 
-.projects {  
+#projects {  
     display: flex;
     flex-wrap: wrap;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: dodgerblue;
 }
 
@@ -46,12 +52,15 @@ h2 {
 
 .project-info {
     flex-grow: 1;
-    max-width: 50%;
+    max-width: 40%;
+    border: 5px solid dodgerblue;
+    margin: 10px;
+   
 }
 
 #mainproj {
     flex-grow: 2;
-    max-width: 100%;
+    max-width: 80%;
 }
 
 .project-img {
@@ -60,18 +69,35 @@ h2 {
 }
 
 .project-header {
-
+    color: white;
+    margin-bottom: -20px;
 }
 
 .project-desc {
-
+    position: absolute;
+    margin-top: -15%;
+    background-color: rgb(88, 129, 170);
+    color: #0a2134;
+    width:16%;
+    font-size: 1.5rem;
 }
 
 .project-desc-item {
-
+    list-style: none;
 }
 
 h2 {
     color: dodgerblue;
     font-size: 2rem;
+}
+
+.contactinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.myphoto {
+    height: 120px;
+    border-radius: 60px;
 }
