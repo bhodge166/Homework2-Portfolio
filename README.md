@@ -5,7 +5,7 @@ The site has been designed using mostly flex display. Media screen has been used
 
 Screenshot of finished work can be seen below:
 
-![Homework Screenshot](./assets/images/deploysc.png)
+![Homework Screenshot](./assets/images/updatedProfile.png)
 
 The website is deployed here:
 https://bhodge166.github.io/Homework2-Portfolio/
