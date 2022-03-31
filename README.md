@@ -9,4 +9,4 @@ Screenshot of finished work can be seen below:
 ![Homework Screenshot](./assets/images/updatedProfile.png)
 
 The website is deployed here:
-https://bhodge166.github.io/Homework2-Portfolio/
+https://bhodge166.github.io/Portfolio/
