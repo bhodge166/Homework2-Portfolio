@@ -1,4 +1,4 @@
-# Homework2-P
+#Portoflio
 
 This code is represents my initial portfolio page. It includes a small section about me, a project section which includes filler content for the time being, and my contact information. There is nav bar to scroll to the different sections.
 
